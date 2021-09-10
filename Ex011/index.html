@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em diferentes navegadores ou diminuir e aumentar o tamanho da janela</p>
+
+    <picture> 
+        <source media="(max-width: 720px)" srcset="imagens/mapa-p.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/mapa-m.png" type="image/png">
+        <img src="imagens/mapa-g.png" alt="Imagem flexível">        
+    </picture>
+
+    <h2>Reproduzindo Áudio</h2>
+    <p>Reproduzindo áudio em HTML5.</p>
+    <audio preload="auto" controls>
+        <source src="midias/lmfao-shotz.mp3" type="audio/mp3">
+        <source src="midias/lmfao-shotz.ogg" type="audio/ogg">
+        <p>Seu navegador não é compatível com o áudio. 
+        <br><a href="midias/lmfao-shotz.mp3"> Clique aqui para baixar o arquivo</a> </p>
+    </audio>
+</body>
+</html>

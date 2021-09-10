@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'The Lord';
+    src: url('fontes/RINGM___.TTF') format('truetype');
+}
+
+h1{
+    font-family: 'The Lord', Times, serif;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'The Lord', Times, serif;   
+    font-weight: normal;
+}
